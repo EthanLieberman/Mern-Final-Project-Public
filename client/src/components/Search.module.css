@@ -1,0 +1,27 @@
+.formLight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    gap: 10px;
+    color: aliceblue;
+}
+
+.formDark {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.borderLight {
+    border-radius: 4px;
+    background-color: rgb(228, 227, 220);
+}
+.borderDark {
+    border-radius: 4px;
+    background-color: rgb(228, 227, 220)
+}

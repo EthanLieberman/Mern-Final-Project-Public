@@ -1,0 +1,31 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    width: 15%;
+}
+
+.darkmode {
+    border-radius: 10px;
+    background-color: rgb(68, 65, 71);
+    color: azure;
+    padding: 5px;
+    width: 100px;
+}
+
+.lightmode {
+    border-radius: 10px;
+    background-color: rgb(228, 227, 220);
+    padding: 5px;
+    width: 100px;
+}
+
+
+
+
+/*light mode off white */
+/* dark mode  */

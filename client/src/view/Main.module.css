@@ -1,0 +1,57 @@
+.wrapper {
+display: flex;
+justify-content: space-evenly;
+}
+
+.searchLight {
+    height: 400px;
+    width: 15%;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.searchDark {
+    height: 400px;
+    width: 15%;
+    background-color: rgb(71, 71, 100);
+    border-radius: 10px;
+}
+
+.center {
+    width: 40%;
+}
+
+.movieLight {
+    min-height: 400px;
+    height: fit-content;
+    width: 15%;
+    background-color: gray;
+    border-radius: 10px;
+    position: relative;
+}
+
+.movieDark {
+    min-height: 400px;
+    height: fit-content;
+    width: 15%;
+    background-color: rgb(71, 71, 100);
+    border-radius: 10px;
+    position: relative;
+}
+
+.spin {
+    animation: 3s linear infinite spinner;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+}
+
+@keyframes spinner {
+    0% {
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
