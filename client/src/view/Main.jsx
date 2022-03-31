@@ -24,7 +24,7 @@ const Main = (props) => {
     const findRestaraunts = (submit) => {       // when submit is clicked on child componant
         console.log('from submit')
 
-        axios.get(`http://localhost:8000/getData/${submit.type}/${submit.location}`)        // api call to database to retrive list of restaraunts from google places
+        axios.get(`http://localhost:8000/api/getData/${submit.type}/${submit.location}`)        // api call to database to retrive list of restaraunts from google places
             .then(results => {
                 console.log(results.data.results)
                 setRestaraunts(results.data.results)
@@ -33,7 +33,7 @@ const Main = (props) => {
 
             setMovieload(false)     // resets ternary to render splash animation for loading movie choices
 
-        axios.get(`http://localhost:8000/getMovie/${submit.genre}`)     // api call to database to retrive random movie from netflix api based on selected genre
+        axios.get(`http://localhost:8000/api/getMovie/${submit.genre}`)     // api call to database to retrive random movie from netflix api based on selected genre
             .then(results => {
                 console.log(results.data.results)
                 setMovie(results.data.results[Math.floor(Math.random() * results.data.results.length)])

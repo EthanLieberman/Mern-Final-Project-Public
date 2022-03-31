@@ -3,8 +3,8 @@ const ApiController = require('../controllers/api.controller');   // sets a vari
 // Routes to call external APIs from the backend to circumvent CORS issues
 // movie API call is currently disabled to limit the amount of calls sent to that API, because the free tier has a very low limit
 module.exports = app => {
-    app.get('/getData/:type/:location', ApiController.getRestaraunts)
-    app.get('/getMovie/:genre', ApiController.getMovie)
+    app.get('/api/getData/:type/:location', ApiController.getRestaraunts)
+    app.get('/api/getMovie/:genre', ApiController.getMovie)
 }
 
 // Unused user routes
