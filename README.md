@@ -5,11 +5,12 @@ Hello There. I led my team on a project to create a application that can take us
 In our project, we used React as a frontend, Express and Node.js as frameworks, and MongoDB as our database for a MERN Single Page Application.
 
 
-![VRChat_1920x1080_2022-04-23_03-53-31 033](https://user-images.githubusercontent.com/97479602/166302182-5bba2362-0557-40fe-ab40-b3e7ef8b8268.png)
+
+![HungR](https://user-images.githubusercontent.com/97479602/166312885-98cc51d1-8001-4dec-a86b-9c95df17dc4d.jpg)
 
 
 
 Check out our project demo:
-
+https://drive.google.com/file/d/1QnD_AGIqar-Jv2cSfBUkrakAPOb_8c1V/view?usp=sharing
 
 Thank you!
