@@ -1,4 +1,4 @@
-# Mern-Final-Project-Public
+# HungR
 
 Hello There. I led my team on a project to create a application that can take user input to give randomized results to pair food with a movie.
 
